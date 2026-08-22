@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>مدیریت هزینه‌های من</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>💰 مدیریت هزینه‌ها</h2>
+
+      <form id="expense-form">
+        <input
+          type="text"
+          id="title"
+          placeholder="عنوان هزینه (مثلاً: ناهار)"
+          required
+        />
+        <input type="number" id="amount" placeholder="مبلغ (تومان)" required />
+        <select id="category">
+          <option value="غذا">🍽️ غذا</option>
+          <option value="حمل‌ونقل">🚗 حمل‌ونقل</option>
+          <option value="خرید">🛍️ خرید</option>
+          <option value="سایر">✨ سایر</option>
+        </select>
+        <button type="submit" id="add-btn">افزودن به لیست</button>
+      </form>
+
+      <ul id="expense-list">
+        <!-- آیتم‌ها اینجا اضافه می‌شوند -->
+      </ul>
+
+      <div class="total-section">
+        <span>مجموع کل:</span>
+        <span id="total-amount">0</span>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
