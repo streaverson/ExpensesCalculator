@@ -1,6 +1,6 @@
 # 📊 Expenses Calculator (Educational Project)
 
-![Project Preview](images/project-preview.png) <!-- حتما یک اسکرین‌شات از پروژه بذار -->
+![Project Preview](images/ExpensesCalculator.png) <!-- حتما یک اسکرین‌شات از پروژه بذار -->
 
 ## 📝 Description
 This project is a functional **Expenses Calculator** built from scratch using **Vanilla JavaScript**, **HTML5**, and **CSS3**. 
